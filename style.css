@@ -2,6 +2,9 @@ body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+.body {
+  box-sizing: border-box;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -196,7 +199,9 @@ body {
   font-weight: 500;
   line-height: normal;
 }
-
+.img-portfolio {
+  border-radius: 10px;
+}
 .portfolio-subtitle {
   color: #070211;
   font-family: Merriweather;
@@ -215,16 +220,18 @@ body {
   font-weight: 400;
   line-height: 32px;
   margin-bottom: 20px;
-  width: 40%;
+  width: 60%;
 }
 
 .hover figure {
   background: #e2e7e6;
+  border-radius: 10px;
 }
 .hover figure img {
   opacity: 1;
   cursor: pointer;
   width: 100%;
+  border-radius: 10px;
   transition: 0.3s ease-in-out;
 }
 .hover figure:hover img {
@@ -303,6 +310,10 @@ input {
   background-color: #070211;
   padding: 30px 15px;
   margin-top: 40px;
+}
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .footer-top,
 .icon-flex {
